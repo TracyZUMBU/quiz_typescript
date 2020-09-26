@@ -1,13 +1,19 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  max-width: 1100px;
-  background: #ebfeff;
+  max-width: 100%;
+  background: transparent;
   border-radius: 10px;
-  border: 2px solid #0085a3;
+  border: 2px solid #6b8f71;
   padding: 20px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
   text-align: center;
+  width: 75%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  left: 50%;
+   
   p {
     font-size: 1rem;
   }
